@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Insumos | Ortopedicos Online</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/insumos.css">
+</head>
+<body>
+	<form action="insumos.php" method="post" class="form-register" enctype="multipart/form-data">
+		<h2 class="main-title"><span class="color-span">CompraDe</span>Insumos</h2>
+		<div class="container--flex">
+			<label for="" class="form__label">Fecha</label>
+			<input type="date" class="form__input" id="fecha" name="fecha" required>
+		</div>
+		<div class="container--flex">
+			<label for="" class="form__label">Proveedor</label>
+			<input type="text" class="form__input" id="proveedor" name="proveedor" required>
+		</div>
+        <div class="container--flex">
+			<label for="" class="form__label">Nit</label>
+			<input type="number" class="form__input" id="nit" name="nit" required>
+		</div>
+		<div class="container--flex">
+			<label for="" class="form__label">Artículo</label>
+			<input type="text" class="form__input" id="articulo" name="articulo" required>
+		</div>
+		<div class="container--flex">
+			<label for="" class="form__label">Cantidad</label>
+			<input type="number" class="form__input" id="cantidad" name="cantidad" required>
+		</div>
+		<div class="container--flex">
+			<label for="" class="form__label">Descripción</label>
+			<input type="text" class="form__input" id="descripcion" name="descripcion" required>
+		</div>
+		<div class="container--flex">
+			<label for="" class="form__label">Costo Unitario</label>
+			<input type="number" class="form__input" id="costoUnitario" name="costoUnitario" required>
+		</div>
+		<div class="container--flex">
+			<label for="" class="form__label">Costo Total</label>
+			<input type="number" class="form__input" id="costoTotal" name="costoTotal" required>
+		</div>
+		<div class="container--flex">
+			<label for="" class="form__label">Aprobado Por:</label>
+			<input type="text" class="form__input" id="aprobadoPor" name="aprobadoPor" required>
+		</div>
+        <div class="container--flex">
+			<label for="" class="form__label">Recibido Por:</label>
+			<input type="text" class="form__input" id="recibidoPor" name="recibidoPor" required>
+		</div>
+		<div class="container--flex">
+			<input type="submit" class="form__submit" value="Enviar">
+			<a href="home.html" class="welcome__btn"><span class="icon-home"><i class="fas fa-home"></i></span>Home</a>
+		</div>
+	</form>
+	<script src="js/insumos.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</body>
+</html>
